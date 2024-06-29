@@ -1,0 +1,272 @@
+using System;
+using System.Linq;
+using System.Collections.Generic;
+
+namespace Csharptutorial;
+
+public class whilellooptut 
+{         
+    public static void Main(string[] args)
+	{
+		
+		Console.WriteLine("===== QUEZ GAME =====");
+        Console.WriteLine();
+        Console.WriteLine();
+		
+		
+		
+		int lives = 5;
+		
+		
+		string answer1 = "jupeter";
+		string answer2 = "mercury";
+		string answer3 = "earth";
+		string answer4 = "pluto";
+		string answer5 = "venos";
+		string answer6 = "milkyway galaxy";
+		
+		
+		while (lives > 0)
+		 {	
+            Console.WriteLine("LIVES : " + lives);
+			Console.WriteLine("QUESTION NUMBER 1");
+            Console.WriteLine("===============");
+            Console.WriteLine("What is The Biggest Planet in Our Solar System");
+			Console.WriteLine();
+			Console.Write("ANSWER : ");
+			string quest1 = Console.ReadLine();
+			
+			if (quest1.Equals(answer1))
+			  {
+				 Console.WriteLine("YOUR ANSWER IS CORRECT : " + answer1);
+				 break; 
+			  }
+		    else
+		  	{
+                Console.WriteLine("YOUR ANSWER IS WRONG");
+				Console.WriteLine();
+                Console.WriteLine();
+                lives--;
+			  }
+			 
+			 if (lives == 0)
+			  {
+                  Console.WriteLine();
+                  Console.WriteLine();
+                  Console.WriteLine("YOU LOSE KASI BOBO KA");
+				  break;
+                  Console.WriteLine();
+                  Console.WriteLine();
+			 
+			  }
+			 		       
+		 }
+
+        Console.WriteLine();
+        Console.WriteLine();
+        
+		 while (lives > 0)
+		 {
+            Console.WriteLine("LIVES : " + lives);
+			Console.WriteLine("QUESTION NUMBER 2");
+            Console.WriteLine("===============");
+            Console.WriteLine("What Neeres Planet in Sun");
+			Console.WriteLine();
+			Console.Write("ANSWER : ");
+			string quest2 = Console.ReadLine();
+			
+			if (quest2.Equals(answer2))
+			  {
+				 Console.WriteLine("YOUR ANSWER IS CORRECT : " + answer2);
+				 break; 
+			  }
+		    else 
+		      {
+                Console.WriteLine("YOUR ANSWER IS WRONG");
+				Console.WriteLine();
+                Console.WriteLine();
+                lives--;
+			  }
+			 
+			 if (lives == 0)
+			  {
+                  Console.WriteLine();
+                  Console.WriteLine();
+                  Console.WriteLine("YOU LOSE KASI BOBO KA");
+				  break;
+                  Console.WriteLine();
+                  Console.WriteLine();
+			 
+			  }
+			  
+			  }
+
+              Console.WriteLine();
+              Console.WriteLine();
+			  
+			  
+			  while (lives > 0)
+		 {	
+            Console.WriteLine("LIVES : " + lives);
+			Console.WriteLine("QUESTION NUMBER 3");
+            Console.WriteLine("===============");
+            Console.WriteLine("What is Have a atmospher");
+			Console.WriteLine();
+			Console.Write("ANSWER : ");
+			string quest3 = Console.ReadLine();
+			
+			if (quest3.Equals(answer3))
+			  {
+				 Console.WriteLine("YOUR ANSWER IS CORRECT : " + answer1);
+				 break; 
+			  }
+		    else
+		  	{
+                Console.WriteLine("YOUR ANSWER IS WRONG");
+				Console.WriteLine();
+                Console.WriteLine();
+                lives--;
+			  }
+			 
+			 if (lives == 0)
+			  {
+                  Console.WriteLine();
+                  Console.WriteLine();
+                  Console.WriteLine("YOU LOSE KASI BOBO KA");
+				  break;
+                  Console.WriteLine();
+                  Console.WriteLine();
+			 
+			  }
+			 		       
+		 }
+
+        Console.WriteLine();
+        Console.WriteLine();
+        
+		 while (lives > 0)
+		 {
+            Console.WriteLine("LIVES : " + lives);
+			Console.WriteLine("QUESTION NUMBER 4");
+            Console.WriteLine("===============");
+            Console.WriteLine("What is the Last Planet in Our solar system");
+			Console.WriteLine();
+			Console.Write("ANSWER : ");
+			string quest4 = Console.ReadLine();
+			
+			if (quest4.Equals(answer4))
+			  {
+				 Console.WriteLine("YOUR ANSWER IS CORRECT : " + answer2);
+				 break; 
+			  }
+		    else 
+		      {
+                Console.WriteLine("YOUR ANSWER IS WRONG");
+				Console.WriteLine();
+                Console.WriteLine();
+                lives--;
+			  }
+			 
+			 if (lives == 0)
+			  {
+                  Console.WriteLine();
+                  Console.WriteLine();
+                  Console.WriteLine("YOU LOSE KASI BOBO KA");
+				  break;
+                  Console.WriteLine();
+                  Console.WriteLine();
+			 
+			  }
+			  
+			  }
+
+             Console.WriteLine();
+             Console.WriteLine();
+			 
+			 while (lives > 0)
+		 {	
+            Console.WriteLine("LIVES : " + lives);
+			Console.WriteLine("QUESTION NUMBER 5");
+            Console.WriteLine("===============");
+            Console.WriteLine("What Planet next on Mercury");
+			Console.WriteLine();
+			Console.Write("ANSWER : ");
+			string quest5 = Console.ReadLine();
+			
+			if (quest5.Equals(answer5))
+			  {
+				 Console.WriteLine("YOUR ANSWER IS CORRECT : " + answer1);
+				 break; 
+			  }
+		    else
+		  	{
+                Console.WriteLine("YOUR ANSWER IS WRONG");
+				Console.WriteLine();
+                Console.WriteLine();
+                lives--;
+			  }
+			 
+			 if (lives == 0)
+			  {
+                  Console.WriteLine();
+                  Console.WriteLine();
+                  Console.WriteLine("YOU LOSE KASI BOBO KA");
+				  break;
+                  Console.WriteLine();
+                  Console.WriteLine();
+			 
+			  }
+			 		       
+		 }
+
+        Console.WriteLine();
+        Console.WriteLine();
+        
+		 while (lives > 0)
+		 {
+            Console.WriteLine("LIVES : " + lives);
+			Console.WriteLine("QUESTION NUMBER 6");
+            Console.WriteLine("===============");
+            Console.WriteLine("What is The Name of our Galaxy");
+			Console.WriteLine();
+			Console.Write("ANSWER : ");
+			string quest6 = Console.ReadLine();
+			
+			if (quest6.Equals(answer6))
+			  {
+				 Console.WriteLine("YOUR ANSWER IS CORRECT : " + answer2);
+				 break; 
+			  }
+		    else 
+		      {
+                Console.WriteLine("YOUR ANSWER IS WRONG");
+				Console.WriteLine();
+                Console.WriteLine();
+                lives--;
+			  }
+			 
+			 if (lives == 0)
+			  {
+                  Console.WriteLine();
+                  Console.WriteLine();
+                  Console.WriteLine("YOU LOSE KASI BOBO KA");
+				  break;
+                  Console.WriteLine();
+                  Console.WriteLine();
+			 
+			  }
+			  
+			  }
+
+
+
+
+
+
+
+
+
+
+
+    } 
+}
